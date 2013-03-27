@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Eugene Chuvyrov. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "FlickrPhotoTVC.h"
 
-@interface StanfordTourViewController : UIViewController
+@interface StanfordTourViewController : FlickrPhotoTVC
 
 @end

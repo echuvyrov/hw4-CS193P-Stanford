@@ -19,6 +19,12 @@
 		905116ED16F30DEF00C432BB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905116EB16F30DEF00C432BB /* MainStoryboard_iPhone.storyboard */; };
 		905116F016F30DEF00C432BB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905116EE16F30DEF00C432BB /* MainStoryboard_iPad.storyboard */; };
 		905116F316F30DEF00C432BB /* StanfordTourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905116F216F30DEF00C432BB /* StanfordTourViewController.m */; };
+		905116FD16F30E2C00C432BB /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 905116FC16F30E2C00C432BB /* FlickrFetcher.m */; };
+		9051170616F3B6D900C432BB /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051170516F3B6D900C432BB /* ImageViewController.m */; };
+		9051170916F3B9B700C432BB /* StanfordTourPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051170816F3B9B700C432BB /* StanfordTourPhotosViewController.m */; };
+		9051170C16F3BE7400C432BB /* FlickrPhotoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051170B16F3BE7400C432BB /* FlickrPhotoTVC.m */; };
+		9051170F16F4E6B700C432BB /* StanfordTourRecentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9051170E16F4E6B700C432BB /* StanfordTourRecentsViewController.m */; };
+		909CB17616FD820000427CE3 /* TourCategoryPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 909CB17516FD820000427CE3 /* TourCategoryPhotos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +45,19 @@
 		905116EF16F30DEF00C432BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		905116F116F30DEF00C432BB /* StanfordTourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StanfordTourViewController.h; sourceTree = "<group>"; };
 		905116F216F30DEF00C432BB /* StanfordTourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StanfordTourViewController.m; sourceTree = "<group>"; };
+		905116FA16F30E2C00C432BB /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		905116FB16F30E2C00C432BB /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		905116FC16F30E2C00C432BB /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		9051170416F3B6D900C432BB /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		9051170516F3B6D900C432BB /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		9051170716F3B9B700C432BB /* StanfordTourPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StanfordTourPhotosViewController.h; sourceTree = "<group>"; };
+		9051170816F3B9B700C432BB /* StanfordTourPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StanfordTourPhotosViewController.m; sourceTree = "<group>"; };
+		9051170A16F3BE7400C432BB /* FlickrPhotoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoTVC.h; sourceTree = "<group>"; };
+		9051170B16F3BE7400C432BB /* FlickrPhotoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoTVC.m; sourceTree = "<group>"; };
+		9051170D16F4E6B700C432BB /* StanfordTourRecentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StanfordTourRecentsViewController.h; sourceTree = SOURCE_ROOT; };
+		9051170E16F4E6B700C432BB /* StanfordTourRecentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StanfordTourRecentsViewController.m; sourceTree = SOURCE_ROOT; };
+		909CB17416FD820000427CE3 /* TourCategoryPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourCategoryPhotos.h; sourceTree = "<group>"; };
+		909CB17516FD820000427CE3 /* TourCategoryPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourCategoryPhotos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 		905116C716F30DEF00C432BB = {
 			isa = PBXGroup;
 			children = (
+				905116F916F30E2C00C432BB /* FlickrFetcher */,
 				905116D916F30DEF00C432BB /* StanfordTour */,
 				905116D216F30DEF00C432BB /* Frameworks */,
 				905116D116F30DEF00C432BB /* Products */,
@@ -85,12 +105,22 @@
 		905116D916F30DEF00C432BB /* StanfordTour */ = {
 			isa = PBXGroup;
 			children = (
+				909CB17416FD820000427CE3 /* TourCategoryPhotos.h */,
+				909CB17516FD820000427CE3 /* TourCategoryPhotos.m */,
+				9051170A16F3BE7400C432BB /* FlickrPhotoTVC.h */,
+				9051170B16F3BE7400C432BB /* FlickrPhotoTVC.m */,
+				9051170416F3B6D900C432BB /* ImageViewController.h */,
+				9051170516F3B6D900C432BB /* ImageViewController.m */,
 				905116E216F30DEF00C432BB /* StanfordTourAppDelegate.h */,
 				905116E316F30DEF00C432BB /* StanfordTourAppDelegate.m */,
 				905116EB16F30DEF00C432BB /* MainStoryboard_iPhone.storyboard */,
 				905116EE16F30DEF00C432BB /* MainStoryboard_iPad.storyboard */,
 				905116F116F30DEF00C432BB /* StanfordTourViewController.h */,
 				905116F216F30DEF00C432BB /* StanfordTourViewController.m */,
+				9051170716F3B9B700C432BB /* StanfordTourPhotosViewController.h */,
+				9051170816F3B9B700C432BB /* StanfordTourPhotosViewController.m */,
+				9051170D16F4E6B700C432BB /* StanfordTourRecentsViewController.h */,
+				9051170E16F4E6B700C432BB /* StanfordTourRecentsViewController.m */,
 				905116DA16F30DEF00C432BB /* Supporting Files */,
 			);
 			path = StanfordTour;
@@ -108,6 +138,17 @@
 				905116E916F30DEF00C432BB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		905116F916F30E2C00C432BB /* FlickrFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				905116FA16F30E2C00C432BB /* FlickrAPIKey.h */,
+				905116FB16F30E2C00C432BB /* FlickrFetcher.h */,
+				905116FC16F30E2C00C432BB /* FlickrFetcher.m */,
+			);
+			name = FlickrFetcher;
+			path = ../Shutterbug/FlickrFetcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +222,12 @@
 				905116E016F30DEF00C432BB /* main.m in Sources */,
 				905116E416F30DEF00C432BB /* StanfordTourAppDelegate.m in Sources */,
 				905116F316F30DEF00C432BB /* StanfordTourViewController.m in Sources */,
+				905116FD16F30E2C00C432BB /* FlickrFetcher.m in Sources */,
+				9051170616F3B6D900C432BB /* ImageViewController.m in Sources */,
+				9051170916F3B9B700C432BB /* StanfordTourPhotosViewController.m in Sources */,
+				9051170C16F3BE7400C432BB /* FlickrPhotoTVC.m in Sources */,
+				9051170F16F4E6B700C432BB /* StanfordTourRecentsViewController.m in Sources */,
+				909CB17616FD820000427CE3 /* TourCategoryPhotos.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +360,7 @@
 				905116F816F30DEF00C432BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
